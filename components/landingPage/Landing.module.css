@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 250vh;
+  overflow: hidden;
+}
+
+.outerContainer {
+  width: 100vw;
+  height: 170vh;
+  background: url(../../assets/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -14rem;
+}
+
+.innerContainer {
+  width: 90vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.navbar > button {
+  width: 173px;
+  height: 52px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 5px;
+  background-color: #23a6f0;
+  color: #fff;
+  border: none;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.main > h1 {
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58.51px;
+  color: #fff;
+}
+
+.cardContainer {
+  /* height: 100vh; */
+  display: flex;
+  gap: 3rem;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.card {
+  width: 328px;
+  height: 250.53px;
+  padding: 35px 40px;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card > h3 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #252b42;
+}
+
+.card > p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rem;
+}
+
+.checklist {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  color: #1c4670;
+  z-index: 1000;
+  margin-bottom: 10rem;
+}
+
+.left > h2 {
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58.51px;
+  text-align: left;
+}
+
+.left > h6 {
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+}
+
+.left > p {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.16px;
+  text-align: left;
+}
+
+.left > button {
+  background-color: #ffa229;
+  padding: 15px 62px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.16px;
+  text-align: left;
+  border: none;
+}
+
+@media (max-width: 769px) {
+  .outerContainer {
+    width: 100vw;
+    height: 170vh;
+    background: url(../../assets/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 80vw; */
+  }
+
+  .main > h1 {
+    font-family: "Montserrat";
+    font-size: 24px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 35px;
+    color: #fff;
+  }
+
+  .cardContainer {
+    /* height: 100vh; */
+    display: flex;
+    gap: 3rem;
+  }
+  .checklist {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    color: #1c4670;
+    z-index: 1000;
+    margin-bottom: 10rem;
+  }
+  
+}

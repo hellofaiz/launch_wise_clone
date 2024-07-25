@@ -1,0 +1,62 @@
+.outerContainer {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.innerContainer {
+  margin-top: 3rem;
+  max-width: 85vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.newsLetterInner {
+  margin-top: 3rem;
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(270deg, #d71489 -1.04%, #004788 100%);
+  padding: 2rem;
+}
+
+.clientImage {
+  width: 154.33px;
+}
+
+.left > h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  color: #fff;
+}
+
+.wrapper {
+  background-color: #fff;
+  border-radius: 3px;
+}
+.wrapper > input {
+  padding: 0.5rem;
+  height: 3rem;
+  font-family: "Montserrat";
+  border: none;
+  width: 25vw;
+}
+.wrapper > button {
+  padding: 0.5rem;
+  border-radius: 0px 3px 3px 0px;
+  margin: 1px;
+  height: 3rem;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #3c4647;
+  color: #fff;
+  border: none;
+}
+

@@ -10,7 +10,7 @@
 .outerContainer {
   width: 100vw;
   height: 170vh;
-  background: url(../../assets/hero-bg.jpg);
+  background: url(/assets/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -166,7 +166,7 @@
   .outerContainer {
     width: 100vw;
     height: 170vh;
-    background: url(../../assets/hero-bg.jpg);
+    background: url(/assets/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

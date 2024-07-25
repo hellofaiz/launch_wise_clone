@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../../assets/footer-bg.png);
+  background: url(/assets/footer-bg.png);
 }
 .innerContainer {
   height: 80%;

@@ -1,5 +1,4 @@
 import launch_wise_logo from '../assets/logo.png'
-import hero_bg from '../assets/hero-bg.jpg'
 import virtual_office_benefits from '../assets/Rectangle 2144.png'
 import checkmark_icon from '../assets/checkmark.png'
 import meter_icon from '../assets/speedometer.png'
@@ -16,7 +15,6 @@ import spring_client from '../assets/our_client/spring house.png'
 import leftArrow from '../assets/leftArrow.png'
 import rightArrow from '../assets/rightArrow.png'
 import daburImage from '../assets/dabur.png'
-import footerbg from '../assets/footer-bg.png'
 import map_img from '../assets/map.png'
 import footerLogo from '../assets/footerLogo.png'
 import arrowbtn from '../assets/arrow-btn.png'
@@ -28,7 +26,7 @@ import workIcon from '../assets/work_icon.png'
 
 
 export {
-    launch_wise_logo, hero_bg, virtual_office_benefits, checkmark_icon, meter_icon, bulb_icon, target_icon, need_help, phone_icon, spring_client, we_work_client,
+    launch_wise_logo, virtual_office_benefits, checkmark_icon, meter_icon, bulb_icon, target_icon, need_help, phone_icon, spring_client, we_work_client,
     razorpay_client,
     slack_client,
     icici_client,
@@ -36,7 +34,6 @@ export {
     leftArrow,
     rightArrow,
     daburImage,
-    footerbg,
     map_img,
     footerLogo, arrowbtn,
     person_icon,
